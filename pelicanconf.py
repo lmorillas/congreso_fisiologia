@@ -10,12 +10,10 @@ from collections import OrderedDict
 
 AUTHOR = u'@lmorillas'
 SITENAME = u'Congreso de Fisiología'
-SITEURL = ''
+SITEURL = '/'
 
-META_DESCRIPTION = '''O Grupy-DF é uma comunidade de usuários (profissionais e
-                      amadores) da linguagem Python, onde prezamos pela troca de
-                      conhecimento, respeito mútuo e diversidade (tanto de opinião
-                      quanto de tecnologias).'''
+META_DESCRIPTION = '''Un proyecto educativo organizado por los alumnos de 2º de medicina 
+de la Universidad de Zaragoza con la ayuda de los profesores del departamento de fisiología'''
 
 META_KEYWORDS = ['grupy-df', 'python', 'brasilia', 'desenvolvimento']
 
@@ -24,10 +22,16 @@ THEME = 'themes/malt'
 MALT_BASE_COLOR = 'blue'
 
 SITE_LOGO = 'images/logo/estudiante.png'
-SITE_LOGO_MOBILE = 'images/logo/logo-inv.png'
+SITE_LOGO_MOBILE = 'images/logo/estudiante.png'
 
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+#STATIC_PATHS = ['images', 'extra/CNAME']
+#EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 WELCOME_TITLE = 'Bienvenido al VIII Congreso de Fisiología'
 WELCOME_TEXT = ''
@@ -168,7 +172,7 @@ MALT_HOME = [
             {
                 "title": "¿Qué es?",
                 "icon": "fa-users",
-                "text": "Un proyecto educativo organziado por y los alumnos de " +\
+                "text": "Un proyecto educativo organizado por los alumnos de " +\
                     "2º de medicina de la <em>Universidad de Zaragoza</em> con la ayuda " +\
                     "de los profesores del departamento de fisiología. " +\
                     "¡<strong>Os esperamos</strong>!",

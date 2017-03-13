@@ -1,5 +1,5 @@
 Inscripción
 #############
 :slug: inscripcion
-:template: normal
+:template: inscripcion
 
