@@ -1,5 +1,5 @@
 Programa
 #########
 :slug: programa
-:template: normal
+:template: programa
 

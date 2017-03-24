@@ -100,10 +100,10 @@ SITEMAP = {
     },
 }
 
-GITHUB_REPO = "http://github.com/grupydf/grupydf.github.io"
-GITHUB_BRANCH = "pelican"
-TWITTER = "@grupydf"
-OPEN_GRAPH_IMAGE = "/images/logo/logo-inv.png"
+GITHUB_REPO = "http://github.com/lmorillas/congreso_fisiologia"
+GITHUB_BRANCH = "gh-pages"
+TWITTER = "@lmorillas"
+OPEN_GRAPH_IMAGE = "/images/logo/estudiante.png"
 
 # Navbar Links
 NAVBAR_HOME_LINKS = [
