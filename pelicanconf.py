@@ -15,13 +15,14 @@ SITEURL = '/'
 META_DESCRIPTION = '''Un proyecto educativo organizado por los alumnos de 2º de medicina 
 de la Universidad de Zaragoza con la ayuda de los profesores del departamento de fisiología'''
 
-META_KEYWORDS = ['grupy-df', 'python', 'brasilia', 'desenvolvimento']
+META_KEYWORDS = ['congreso fisiología', 'congreso', 'medicina', 'alumnos']
 
 TIMEZONE = 'Europe/Madrid'
 THEME = 'themes/malt'
 MALT_BASE_COLOR = 'blue'
 
 SITE_LOGO = 'images/logo/estudiante.png'
+#SITE_LOGO = 'images/logo/cartel2.jpeg'
 SITE_LOGO_MOBILE = 'images/logo/estudiante.png'
 
 #STATIC_PATHS = ['images', 'extra/CNAME']
@@ -33,8 +34,8 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-WELCOME_TITLE = 'Bienvenido al VIII Congreso de Fisiología'
-WELCOME_TEXT = ''
+WELCOME_TITLE = 'VIII Congreso de Fisiología - Unizar'
+WELCOME_TEXT = '2, 3 y 4 de Mayo de 2017'
 SITE_BACKGROUND_IMAGE = 'images/banners/pilar.jpg'
 FOOTER_ABOUT = '''El grupo de alumnos de 2º ...'''
 
@@ -145,18 +146,12 @@ NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
 
 SOCIAL_LINKS = (
     {
-        "href": "https://telegram.me/joinchat/AG9QCABLx9wgYM1bcoGxgQ",
-        "icon": "fa-paper-plane",
-        "text": "Telegram",
-    },
-    
-    {
-        "href": "https://twitter.com/",
-        "icon": "fa-twitter",
-        "text": "Twitter",
+        "href": "https://www.instagram.com/viiicongresofisiologia/",
+        "icon": "fa-instagram",
+        "text": "Instagram",
     },
     {
-        "href": "https://www.facebook.com/groups/",
+        "href": "https://www.facebook.com/VIII-Congreso-De-Fisiolog%C3%ADa-Unizar-1811411632515573/",
         "icon": "fa-facebook",
         "text": "Facebook",
     },
@@ -179,15 +174,15 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Más ...",
-                        "href": "comunidad",
+                        "href": "programa",
                     },
                 ],
             },
             {
                 "title": "¿Dónde?",
                 "icon": "fa-map-marker",
-                "text": "Lugar: <br> " +\
-                        "Fecha: ",
+                "text": "<strong>Lugar:</strong> Facultad de Medicina, Universidad de Zaragoza <br>" +\
+                        "<strong>Fecha:</strong> 2, 3 y 4 de Mayo de 2017",
                 "buttons": [
                     {
                         "text": "Inscríbete",
@@ -209,6 +204,37 @@ MALT_HOME = [
             },
         ]
     },
+]
+
+CONGRESOS_ANTERIORES = [
+   { "url": "http://www.unizar.es/congresofisiologia/VI%20Congreso%20de%20fisiologia%202/V%20congreso%20fisiologia/IV%20Congreso%20de%20%20Fisiologia%20FMZ/Otros/primercongreso/default.html",
+     "logo": "congresoI.jpg",
+     "nombre": "I Congreso"
+   },
+   { "url": "http://www.unizar.es/congresofisiologia/VI%20Congreso%20de%20fisiologia%202/V%20congreso%20fisiologia/IV%20Congreso%20de%20%20Fisiologia%20FMZ/Otros/segundocongreso/index.htm",
+     "logo": "congresoII.jpg",
+     "nombre": "II Congreso"
+   },
+   { "url": "http://www.unizar.es/congresofisiologia/VI%20Congreso%20de%20fisiologia%202/V%20congreso%20fisiologia/IV%20Congreso%20de%20%20Fisiologia%20FMZ/Otros/index3.html",
+     "logo": "congresoIII.jpg",
+     "nombre": "III Congreso"
+   },
+   { "url": "http://www.unizar.es/congresofisiologia/VI%20Congreso%20de%20fisiologia%202/V%20congreso%20fisiologia/IV%20Congreso%20de%20%20Fisiologia%20FMZ/inicio.html",
+     "logo": "congresoIV.jpg",
+     "nombre": "IV Congreso"
+   },
+   { "url": "http://www.unizar.es/congresofisiologia/VI%20Congreso%20de%20fisiologia%202/V%20congreso%20fisiologia/index.html",
+     "logo": "congresoV.jpg",
+     "nombre": "V Congreso"
+   },
+   { "url": "",
+     "logo": "congresoVI.jpg",
+     "nombre": "VI Congreso"
+   },
+   { "url": "",
+     "logo": "congresoVII.jpg",
+     "nombre": "VII Congreso"
+   },
 ]
 
 from themes.malt.functions import *

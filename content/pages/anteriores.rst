@@ -1,5 +1,6 @@
 Congresos anteriores
 ####################
 :slug: anteriores
-:template: normal
+:template: anteriores
+
 
