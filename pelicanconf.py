@@ -161,12 +161,7 @@ MALT_HOME = [
                     "2º de medicina de la <em>Universidad de Zaragoza</em> con la ayuda " +\
                     "de los profesores del departamento de fisiología. " +\
                     "¡<strong>Os esperamos</strong>!",
-                "buttons": [
-                    {
-                        "text": "Más ...",
-                        "href": "programa",
-                    },
-                ],
+                "buttons": [],
             },
             {
                 "title": "¿Dónde?",
@@ -228,3 +223,6 @@ CONGRESOS_ANTERIORES = [
 ]
 
 from themes.malt.functions import *
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
