@@ -10,7 +10,7 @@ from collections import OrderedDict
 
 AUTHOR = u'@lmorillas'
 SITENAME = u'Congreso de Fisiología'
-SITEURL = '/'
+SITEURL = 'http://localhost:8000'
 
 META_DESCRIPTION = '''Un proyecto educativo organizado por los alumnos de 2º de medicina 
 de la Universidad de Zaragoza con la ayuda de los profesores del departamento de fisiología'''
@@ -25,8 +25,6 @@ SITE_LOGO = 'images/logo/estudiante.png'
 #SITE_LOGO = 'images/logo/cartel2.jpeg'
 SITE_LOGO_MOBILE = 'images/logo/estudiante.png'
 
-#STATIC_PATHS = ['images', 'extra/CNAME']
-#EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
@@ -34,7 +32,8 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-WELCOME_TITLE = 'VIII Congreso de Fisiología - Unizar'
+WELCOME_TITLE = 'VIII Congreso de Fisiología'
+WELCOME_TITLE2='@unizar'
 WELCOME_TEXT = '2, 3 y 4 de Mayo de 2017'
 SITE_BACKGROUND_IMAGE = 'images/banners/pilar.jpg'
 FOOTER_ABOUT = '''El grupo de alumnos de 2º ...'''
@@ -127,22 +126,12 @@ NAVBAR_HOME_LINKS = [
         "title": "Congresos anteriores",
         "href": "anteriores",
     },
+    {
+        "title": "Acerca de",
+        "href": "acerca_de",
+    },
 ]
 
-NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
-    {
-        "title": "Categorias",
-        "href": "blog/categorias",
-    },
-    {
-        "title": "Autores",
-        "href": "blog/autores",
-    },
-    {
-        "title": "Tags",
-        "href": "blog/tags",
-    },
-]
 
 SOCIAL_LINKS = (
     {
