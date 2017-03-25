@@ -18,7 +18,7 @@ de la Universidad de Zaragoza con la ayuda de los profesores del departamento de
 META_KEYWORDS = ['congreso fisiología', 'congreso', 'medicina', 'alumnos']
 
 TIMEZONE = 'Europe/Madrid'
-THEME = 'themes/malt'
+THEME = 'themes/congreso'
 MALT_BASE_COLOR = 'blue'
 
 SITE_LOGO = 'images/logo/estudiante.png'
@@ -222,7 +222,8 @@ CONGRESOS_ANTERIORES = [
    },
 ]
 
-from themes.malt.functions import *
+from themes.congreso.functions import *
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
+        

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="center-align">{{page.title}}</h1>
+<div class="container content-container ">
+<div class="row">
+    {% for section in CONGRESOS_ANTERIORES %}
+       
+            <div class="col s12 m4" style="min-height: 450px">
+                {% if 'title' in section %}
+                    <h2 class="center">{{ section['title'] }}</h2>
+                {% endif %}
+                <a href="{{section.url}}">
+                <img class="thumbnail responsive-img" src="{{SITEURL}}/images/{{ section.logo}}" alt="{{section.nombre}}"></a>
+        
+            </div>
+    {% endfor %}
+    </div>
+    </div>
+{% endblock %}
