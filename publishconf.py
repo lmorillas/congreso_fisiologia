@@ -13,13 +13,11 @@ from pelicanconf import *
 SITEURL = '/congreso_fisiologia'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'blog/feeds.atom'
-FEED_ALL_RSS = 'blog/feeds.rss'
+FEED_ALL_ATOM = 'feeds.atom'
+FEED_ALL_RSS = 'feeds.rss'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DISQUS_SITENAME = "grupydf"
-DISQUS_NO_ID = True
 
 # Following items are often useful when publishing
 
