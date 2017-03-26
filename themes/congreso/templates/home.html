@@ -23,20 +23,23 @@
                 </div>
             </div>
             {% endblock %}
-
 {% block content %}
+
+
+
 {% if MALT_HOME is defined %}
     {% for section in MALT_HOME %}
     <div class="{% if 'color' in section %}{{ section['color'] }}{% endif %}">
         <div class="container content-container ">
             <div class="section">
-                {% if 'title' in section %}
+                <!--{% if 'title' in section %}
                     <h2 class="center">{{ section['title'] }}</h2>
                 {% endif %}
+                -->
                 {% if 'items' in section %}
                 <!--   Icon Section   -->
                 <div class="row">
-                    {% for item in section['items'] %}
+                   {% for item in section['items'] %}
                     <!--   Icon Element   -->
                     <div class="col s12 m4">
                         <div class="icon-block">
@@ -44,6 +47,9 @@
                             <h3 class="center {{ MALT_BASE_COLOR }}-text text-lighten-1">
                                 <i class="fa {{ item['icon'] }} fa-2x"></i>
                             </h3>
+                            {% endif %}
+                            {% if 'img' in item %}
+                            <img src="{{ SITEURL }}/images/{{item['img']}}" alt="{{item['img']}}" class="circle center-block" style="max-width: 60%;padding: 20px 0">
                             {% endif %}
 
                             {% if 'title' in item %}

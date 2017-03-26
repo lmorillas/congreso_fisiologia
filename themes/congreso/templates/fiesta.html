@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block styles %}
+    {{ super() }}
+    
+{% endblock %}
+
+{% block title %}
+Fiesta del VIII Congreso de Fisiología
+{% endblock %}
+
+{% block content %}
+<div class="container container-content">
+<div class="row">
+<br>
+<div class="col s12 m6">
+<img src="{{ SITEURL }}/images/fiesta.jpeg" alt="fiesta congreso" class="responsive-img">
+
+</div>
+<div class="col s12 m6">
+<h3 class="center-align">{{page.title}}</h3>
+
+{{page.content}}
+
+<h4><i class="fa fa-ticket" aria-hidden="true"></i> Entradas</h4>
+
+<ul class="collection">
+    <li class="collection-item avatar">
+       <i class="material-icons circle">phonelink_ring</i> 
+      <span class="title">María</span>
+      <p><a href="tel:639239381">639239381</a></p>
+    </li>
+    <li class="collection-item avatar">
+       <i class="material-icons circle">phonelink_ring</i> 
+      <span class="title">Clara</span>
+      <p><a href="tel:689185948">689185948</a></p>
+    </li>
+    <li class="collection-item avatar">
+       <i class="material-icons circle">phonelink_ring</i> 
+      <span class="title">Jorge</span>
+      <p><a href="tel:666096890">666096890</a></p>
+    </li>
+  </ul>
+
+</div>
+</div>
+
+</div>
+{% endblock %}

@@ -155,26 +155,27 @@ MALT_HOME = [
         "title": "Nuestro congreso",
         "items": [
             {
+                "img": "fiesta.jpeg",
+                "buttons": [
+                {
+                        "text": "Fiesta Congreso",
+                        "href": "fiesta",
+                    },],
+            },
+            {
                 "title": "¿Qué es?",
                 "icon": "fa-users",
                 "text": "Un proyecto educativo organizado por los alumnos de " +\
                     "2º de medicina de la <em>Universidad de Zaragoza</em> con la ayuda " +\
                     "de los profesores del departamento de fisiología. " +\
                     "¡<strong>Os esperamos</strong>!",
-                "buttons": [],
-            },
-            {
-                "title": "¿Dónde?",
-                "icon": "fa-map-marker",
-                "text": "<strong>Lugar:</strong> Facultad de Medicina, Universidad de Zaragoza <br>" +\
-                        "<strong>Fecha:</strong> 2, 3 y 4 de Mayo de 2017",
                 "buttons": [
-                    {
+                 {
                         "text": "Inscríbete",
                         "href": "inscripcion",
-                    },
-                ],
+                    },],
             },
+            
             {
                 "title": "Actividades",
                 "icon": "fa-th-list",
@@ -190,6 +191,19 @@ MALT_HOME = [
         ]
     },
 ]
+
+old = {
+                "title": "¿Dónde?",
+                "icon": "fa-map-marker",
+                "text": "<strong>Lugar:</strong> Facultad de Medicina, Universidad de Zaragoza <br>" +\
+                        "<strong>Fecha:</strong> 2, 3 y 4 de Mayo de 2017",
+                "buttons": [
+                    {
+                        "text": "Inscríbete",
+                        "href": "inscripcion",
+                    },
+                ],
+            }
 
 CONGRESOS_ANTERIORES = [
    { "url": "http://www.unizar.es/congresofisiologia/VI%20Congreso%20de%20fisiologia%202/V%20congreso%20fisiologia/IV%20Congreso%20de%20%20Fisiologia%20FMZ/Otros/primercongreso/default.html",
