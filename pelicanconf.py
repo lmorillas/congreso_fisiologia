@@ -241,3 +241,34 @@ from themes.congreso.functions import *
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
         
+COLABORADORES = [
+        {'equipo': 'Comisión artística',
+        'personas': ['Pablo Lozano', 'Inés Gallán', 'Silvia Molés '],
+        'logo': 'paint-brush'},
+        {'equipo':'Comunicación',
+        'personas' : ['Marta Kurtz', 'Carmen Morillas', 'Sara Moya'],
+        'logo': 'podcast'},
+        {'equipo': 'Comunicación social',
+        'personas': ['María Alfaro', 'Jorge Capdevila', 'Clara Muñoz'],
+        'logo': 'users'},
+        {'equipo': 'Logística',
+        'personas': ['Miguel Lasheras',
+        'Sabitri Budría',
+        'Cristina Calvo',
+        'Pablo Berdún Viñegras',
+        'Marcos Blanco'],
+        'logo': 'truck'},
+        {'equipo':'Patrocinio',
+        'personas': ['Eva Samatán',
+        'Eva Cortés Inglés',
+        'Daisy Blasco Lorente',
+        'Marta Casaus'],
+        'logo': 'money'},
+        {'equipo': 'Relaciones institucionales',
+        'personas': ['Ana Pueyo',
+        'Laura Mínguez',
+        'Vicky Gil',
+        'María Sopeña',
+        'Víctor Villarmí'],
+        'logo':'hospital-o'}
+        ]

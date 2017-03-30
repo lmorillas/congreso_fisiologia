@@ -14,23 +14,25 @@
 {% endblock %}
 
 {% block content %}
-{% if MALT_COMUNITY is defined %}
+<h2 class="center">Nuestro equipo  <i class="fa fa-user-md"></i></h2>
+
 <div class="container container-content">
   <div class="row center-align">
-  {% for section in MALT_COMUNITY %}
+  {% for section in COLABORADORES %}
     <div class="col s12 m4 icon-block">
-      <h5>{{ section['title'] }}</h5>
+    <h2><i class="fa fa-{{section['logo']}}"></i></h2>
+      <h5>{{ section['equipo'] }}</h5>
 
-      <p class="light">{{ section['text'] }}</p>
-
-      <div class="center">
-      {% for button in section['buttons'] %}
-        <a class="{{ MALT_BASE_COLOR }} waves-effect waves-light btn" href="{{ GET_LINK(button['href']) }}">{{ button['text'] }}</a>
+      <div >
+      <ul  class="browser-default">
+      {% for p in section['personas'] %}
+        <li  class="">{{p}}</li>
       {% endfor %}
+      </ul>
       </div>
     </div>
   {% endfor %}
   </div>
 </div>
-{% endif %}
+
 {% endblock %}

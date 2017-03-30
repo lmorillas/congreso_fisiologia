@@ -1,5 +1,5 @@
 Organizadores
 #############
 :slug: organizadores
-:template: normal
+:template: organizadores
 

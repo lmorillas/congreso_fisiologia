@@ -1,5 +1,5 @@
 Colaboradores
 #############
 :slug: colaboradores
-:template: normal
+:template: colaboradores
 
