@@ -7,11 +7,15 @@
     {% for section in CONGRESOS_ANTERIORES %}
        
             <div class="col s12 m4" style="min-height: 450px">
+            <div class="card hoverable">
+            <div class="card-content">
                 {% if 'title' in section %}
                     <h2 class="center">{{ section['title'] }}</h2>
                 {% endif %}
                 <a href="{{section.url}}">
                 <img class="thumbnail responsive-img" src="{{SITEURL}}/images/{{ section.logo}}" alt="{{section.nombre}}"></a>
+                </div>
+                </div>
         
             </div>
     {% endfor %}
