@@ -20,6 +20,7 @@
   <div class="row center-align">
   {% for section in COLABORADORES %}
     <div class="col s12 m4 icon-block">
+    <div class="card hoverable">
     <h2><i class="fa fa-{{section['logo']}}"></i></h2>
       <h5>{{ section['equipo'] }}</h5>
 
@@ -30,6 +31,7 @@
       {% endfor %}
       </ul>
       </div>
+    </div>
     </div>
   {% endfor %}
   </div>
