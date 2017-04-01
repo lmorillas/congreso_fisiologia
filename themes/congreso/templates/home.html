@@ -42,6 +42,8 @@
                    {% for item in section['items'] %}
                     <!--   Icon Element   -->
                     <div class="col s12 m4">
+                    <div class="card hoverable">
+                    <div class="card-content">
                         <div class="icon-block">
                             {% if 'icon' in item %}
                             <h3 class="center {{ MALT_BASE_COLOR }}-text text-lighten-1">
@@ -71,6 +73,9 @@
                             {% endif %}
                         </div>
                     </div>
+                    </div>
+                    </div>
+                    
                     {% endfor %}
                 </div>
                 {% endif %}
