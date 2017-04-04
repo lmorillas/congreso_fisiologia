@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = '/congreso_fisiologia'   # link en gh-pages
+#SITEURL = '/congreso_fisiologia'   # link en gh-pages
+SITEURL = '/congresofisiologia'   # link en unizar
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds.atom'
